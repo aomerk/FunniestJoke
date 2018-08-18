@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "202902461954",
+    "firebase_url": "https://funniestjoke-a6154.firebaseio.com",
+    "project_id": "funniestjoke-a6154",
+    "storage_bucket": "funniestjoke-a6154.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202902461954:android:1cf73fbfcaf1ec83",
+        "android_client_info": {
+          "package_name": "com.aok.funniestjoke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202902461954-5s9appiir0pfdq7bmm9o31mmet61fj8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aok.funniestjoke",
+            "certificate_hash": "340aecdf5a9242edc823822b350a43aa6436a898"
+          }
+        },
+        {
+          "client_id": "202902461954-01na3jc3p4pftgirafmhqe4496fiu9vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZKiCUgP7SwXAgjvvxWZSVK3yfPATnYWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202902461954-01na3jc3p4pftgirafmhqe4496fiu9vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
