@@ -10,11 +10,9 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 // ...
 
@@ -53,19 +51,19 @@ public class MainActivity extends AppCompatActivity {
         // use a linear layout manager
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        List<String> input = new ArrayList<>();
-        input.add(getString(R.string.joke1));
-        input.add(getString(R.string.joke2));
-        input.add(getString(R.string.joke3));
-        input.add(getString(R.string.joke4));
-        input.add(getString(R.string.joke5));
-        input.add(getString(R.string.joke6));
-        input.add(getString(R.string.joke7));
-        input.add(getString(R.string.joke8));
-        input.add(getString(R.string.joke9));
-        input.add(getString(R.string.joke10));
-        input.add("");
-        mAdapter = new MyAdapter(input);
+        List<String> joke = new ArrayList<>();
+        joke.add(getString(R.string.joke1));
+        joke.add(getString(R.string.joke2));
+        joke.add(getString(R.string.joke3));
+        joke.add(getString(R.string.joke4));
+        joke.add(getString(R.string.joke5));
+        joke.add(getString(R.string.joke6));
+        joke.add(getString(R.string.joke7));
+        joke.add(getString(R.string.joke8));
+        joke.add(getString(R.string.joke9));
+        joke.add(getString(R.string.joke10));
+        joke.add("");
+        mAdapter = new RecyclerViewAdapter(joke);
         recyclerView.setAdapter(mAdapter);
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
